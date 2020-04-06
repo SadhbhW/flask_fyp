@@ -55,20 +55,22 @@
                   url: '/text',
                   type: 'POST',
                   processData: false,
+                  contentType: "application/json; charset=utf-8",
                   data: {
                     "key": data
                   },
                   success: function(response)
                   {
                     console.log("success");
+                    console.log(blob);
                   },
 
                   error:function(error)
                   {
-                    console.log(error);
+                    console.log("error");
                   }
-                });})
-
+                });
+               })
                 });
     })
               .catch(function (err) {
