@@ -1,5 +1,3 @@
-import sqlite3
-from pprint import pprint
 from pyzbar import pyzbar
 import cv2
 

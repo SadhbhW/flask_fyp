@@ -1,6 +1,6 @@
-import subprocess
-
 from flask import render_template, Flask, request, redirect, url_for
+
+from recyclesaurs import barcode_find
 
 app = Flask(__name__)
 
@@ -13,9 +13,8 @@ def hello_world():
 @app.route('/text', methods=['POST', 'GET'])
 def text():
     print("hello")
-    # if request.method == "POST":
-        # subprocess.call(['python', 'barcode_scanner.py'])
-       # return render_template("home.html")
+    barcode_find.activate(request.data)
+    return ("OK")
 
 
 if __name__ == '__main__':
