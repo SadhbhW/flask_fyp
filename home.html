@@ -4,6 +4,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Barcode Capture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="static/js/app.js"></script>
     <style>
       #vid-show, #vid-canvas, #vid-take {
         display: block;
@@ -15,7 +16,7 @@
       }
     </style>
   </head>
-  <body onload="func()">
+  <body onload="draw_body()">
   <form name="file" type="file">
     <div id="vid-controls">
       <video id="vid-show" autoplay></video>
@@ -23,60 +24,5 @@
       <div id="vid-canvas"></div>
     </div>
   </form>
-  <script>
-    function func() {
-      // [1] GET ALL THE HTML ELEMENTS
-      var video = document.getElementById("vid-show"),
-              canvas = document.getElementById("vid-canvas"),
-              take = document.getElementById("vid-take");
-
-      // [2] ASK FOR USER PERMISSION TO ACCESS CAMERA
-      navigator.mediaDevices.getUserMedia({video: true})
-              .then(function (stream) {
-                // [3] SHOW VIDEO STREAM ON VIDEO TAG
-                video.srcObject = stream;
-                video.play();
-
-                // [4] WHEN WE CLICK ON "TAKE PHOTO" BUTTON
-                take.addEventListener("click", function () {
-                  console.log("hello world");
-                  // Create snapshot from video
-                  var draw = document.createElement("canvas");
-                  draw.width = video.videoWidth;
-                  draw.height = video.videoHeight;
-                  var context2D = draw.getContext("2d");
-                  context2D.drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
-                  // Upload to server
-                  draw.toBlob(function(blob){
-                    var data = new FormData();
-                    data.append('upimage', blob);
-
-                $.ajax({
-                  url: '/text',
-                  type: 'POST',
-                  processData: false,
-                  contentType: "application/json; charset=utf-8",
-                  data: {
-                    "key": data
-                  },
-                  success: function(response)
-                  {
-                    console.log("success");
-                    console.log(blob);
-                  },
-
-                  error:function(error)
-                  {
-                    console.log("error");
-                  }
-                });
-               })
-                });
-    })
-              .catch(function (err) {
-                document.getElementById("vid-controls").innerHTML = "Please enable access and attach a camera";
-              });
-    }
-  </script>
   </body>
 </html>
