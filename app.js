@@ -36,6 +36,7 @@ function capture_xmit_frame() {
     xmit_frame(data)
     }
 
+    // ajax POST
 function xmit_frame(image_data){
       $.ajax({
         url: '/image',
@@ -52,7 +53,3 @@ function xmit_frame(image_data){
       }
     });
 }
-
-// function add_barcodes(){
-
-// }

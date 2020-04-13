@@ -1,6 +1,8 @@
+import pprint
+
 from pyzbar import pyzbar
 import cv2
-import http.client, urllib.request, urllib.parse, urllib.error, base64
+import http.client, urllib.request, urllib.parse, urllib.error
 
 
 def retrieve_barcode(data):
@@ -19,10 +21,11 @@ def retrieve_barcode(data):
         barcode_string = barcode.type
 
         # show barcode type and data to user
-        print("The barcode {} {} was found".format(barcode_string, barcode_byte))
+        print("The barcode {} {} was found in the image".format(barcode_string, barcode_byte))
         parsed_barcodes.append([barcode_string, barcode_byte])
 
 
+        # api code
         headers = {
             # Request headers
             'Ocp-Apim-Subscription-Key': 'cd24a9a50c9f4f0cb057c77c28a6cae7',
@@ -30,19 +33,17 @@ def retrieve_barcode(data):
 
         params = urllib.parse.urlencode({
             # Request parameters
-            'gtin': "barcode_byte",
+            'gtin': parsed_barcodes,
         })
-        print(barcode_byte)
         try:
-            print("cunt")
+            print("Requesting information from API...")
             conn = http.client.HTTPSConnection('dev.tescolabs.com')
             conn.request("GET", "/product/?%s" % params, "{description}", headers)
             response = conn.getresponse()
-            data = response.read()
-            print(data)
+            item_data = response.read()
+            pprint.pprint(item_data)
             conn.close()
         except Exception as e:
             print("error")
 
     return parsed_barcodes
-

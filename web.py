@@ -19,7 +19,7 @@ def text():
     if request.is_json:
         image = request.json.get("imageData")
         if image:
-            print("Found Image")
+            print("Image has been recognised")
             # Remove the header
             with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as temp:
                 stripped = image.replace("data:image/png;base64,", "")
@@ -37,4 +37,4 @@ def text():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True, ssl_context=('server.crt', 'server.key'))
+    app.run(debug=True)
