@@ -31,9 +31,15 @@ def text():
             if not DEBUG:
                 os.remove(temp_path)
             return json.dumps(parsed_barcodes), 200
+        print("hi")
 
 
     return "OK"
+
+
+@app.route('/results_page', methods=['GET', 'POST'])
+def results_page():
+    return render_template('index.html')
 
 
 if __name__ == '__main__':

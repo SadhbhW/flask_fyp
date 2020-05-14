@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Results:</title>
+    <title>Results Page</title>
 
-    <img src="{{ url_for('send_file', filename=filename) }}" height="200px"/>
+    <iframe src="recyclesaurs\\user_info.json"></iframe>
+    <script onload="read_in_json_data()">
+
+function read_in_json_data(){
+    var jcontent = {
+        json_data
+    }
+    var output = document.getElementById(json_data);
+    output.innerHTML = jcontent.json_data;
+     console.log()
+}
+
+    </script>
 </head>
 <body>
 

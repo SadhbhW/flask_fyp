@@ -1,0 +1,764 @@
+[{
+    "products": [
+        {
+            "brand": "CADBURY",
+            "description": "Cadbury Bournville Baking Cocoa Powder 250G",
+            "gtin": "07622210221834",
+            "pkgDimensions": [
+                {
+                    "depth": 7.7,
+                    "dimensionUom": "cm",
+                    "height": 15.0,
+                    "no": 1,
+                    "volume": 889.35,
+                    "volumeUom": "cc",
+                    "weight": 300.0,
+                    "weightUom": "g",
+                    "width": 7.7
+                }
+            ],
+            "productCharacteristics": {
+                "containsLoperamide": false,
+                "healthScore": 38,
+                "isAnalgesic": false,
+                "isDrink": false,
+                "isFood": true,
+                "isHazardous": false,
+                "storageType": "Ambient"
+            },
+            "qtyContents": {
+                "avgMeasure": "Average Measure (e)",
+                "netContents": "250g \u212e",
+                "quantity": 250.0,
+                "quantityUom": "G",
+                "totalQuantity": 250.0,
+                "unitQty": "100G"
+            },
+            "tpnb": "075916703",
+            "tpnc": "282152394"
+        }
+    ]
+},
+
+
+{
+    "products": [
+        {
+            "brand": "MILKA",
+            "description": "Milka Happy Cows Milk & White Chocolate Bar",
+            "gtin": "07622400005190",
+            "pkgDimensions": [
+                {
+                    "depth": 1.0,
+                    "dimensionUom": "cm",
+                    "height": 7.5,
+                    "no": 1,
+                    "volume": 121.5,
+                    "volumeUom": "cc",
+                    "weight": 104.0,
+                    "weightUom": "g",
+                    "width": 16.2
+                }
+            ],
+            "productCharacteristics": {
+                "containsLoperamide": false,
+                "healthScore": 18,
+                "isAnalgesic": false,
+                "isDrink": false,
+                "isFood": true,
+                "isHazardous": false,
+                "storageType": "Ambient"
+            },
+            "qtyContents": {
+                "avgMeasure": "Average Measure (e)",
+                "netContents": "100g \u212e",
+                "quantity": 100.0,
+                "quantityUom": "G",
+                "totalQuantity": 100.0,
+                "unitQty": "100G"
+            },
+            "tpnb": "064226782",
+            "tpnc": "264875337"
+        }
+    ]
+},
+
+
+{
+  "products": [
+    {
+      "brand": "HEINZ",
+      "description": "Heinz Top Down Tomato Ketchup 910G",
+      "gtin": "00000050457236",
+      "pkgDimensions": [
+        {
+          "depth": 6.5,
+          "dimensionUom": "cm",
+          "height": 23.4,
+          "no": 1,
+          "volume": 1475.37,
+          "volumeUom": "cc",
+          "weight": 964.0,
+          "weightUom": "g",
+          "width": 9.7
+        }
+      ],
+      "productCharacteristics": {
+        "containsLoperamide": false,
+        "healthScore": 44,
+        "isAnalgesic": false,
+        "isDrink": false,
+        "isFood": true,
+        "isHazardous": false,
+        "storageType": "Ambient"
+      },
+      "qtyContents": {
+        "avgMeasure": "Average Measure (e)",
+        "netContents": "910g \u212e",
+        "quantity": 910.0,
+        "quantityUom": "G",
+        "totalQuantity": 910.0,
+        "unitQty": "100G"
+      },
+      "tpnb": "051169241",
+      "tpnc": "254722768"
+    }
+  ]
+},
+
+
+{
+  "products": [
+    {
+      "allergenAdvice": {
+        "allergenText": "May contain Gluten, Egg and Mustard",
+        "allergens": [
+          {
+            "allergenName": "Contains",
+            "allergenValues": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "allergenName": "May Contain",
+            "allergenValues": [
+              "Eggs",
+              "Gluten",
+              "Mustard"
+            ]
+          }
+        ]
+      },
+      "brand": "KNORR",
+      "calcNutrition": {
+        "calcNutrients": [
+          {
+            "name": "Energy (kJ)",
+            "valuePer100": "158",
+            "valuePerServing": "300"
+          },
+          {
+            "name": "Energy (kcal)",
+            "valuePer100": "38",
+            "valuePerServing": "72"
+          },
+          {
+            "name": "Fat (g)",
+            "valuePer100": "1.7",
+            "valuePerServing": "3.2"
+          },
+          {
+            "name": " of which saturates (g)",
+            "valuePer100": "1",
+            "valuePerServing": "1.9"
+          },
+          {
+            "name": "Carbohydrate (g)",
+            "valuePer100": "4.4",
+            "valuePerServing": "8.4"
+          },
+          {
+            "name": " of which sugars (g)",
+            "valuePer100": "0.7",
+            "valuePerServing": "1.3"
+          },
+          {
+            "name": "Fibre (g)",
+            "qualPer100": "<",
+            "valuePer100": "0.5",
+            "valuePerServing": "0.5"
+          },
+          {
+            "name": "Protein (g)",
+            "valuePer100": "0.9",
+            "valuePerServing": "1.7"
+          },
+          {
+            "name": "Salt (g)",
+            "valuePer100": "0.95",
+            "valuePerServing": "1.8"
+          }
+        ],
+        "per100Header": "per 100ml",
+        "perServingHeader": "Per portion**"
+      },
+      "country": [
+        {
+          "authorised": false,
+          "code": "GB",
+          "deactivated": false,
+          "epw": false,
+          "status": "storeReady",
+          "suspended": false
+        },
+        {
+          "authorised": true,
+          "code": "IE",
+          "custFriendlyDesc": "Knorr Quick Soup Cken And Vegetable",
+          "deactivated": false,
+          "epw": false,
+          "launchDate": "2017-05-21",
+          "status": "storeReady",
+          "suspended": false
+        }
+      ],
+      "description": "Knorr Quick Soup Cken And Vegetable",
+      "gda": {
+        "gdaRefs": [
+          {
+            "footers": [
+              "Energy per 100ml: 158kJ / 38kcal",
+              "% of Reference intake of an average adult (8400kJ/2000kcal)"
+            ],
+            "gdaDescription": "Per Portion",
+            "headers": [
+              "Per sachet:"
+            ],
+            "values": [
+              {
+                "name": "Energy",
+                "percent": "4",
+                "values": [
+                  "300kJ",
+                  "72kcal"
+                ]
+              },
+              {
+                "name": "Fat",
+                "percent": "5",
+                "values": [
+                  "3.2g"
+                ]
+              },
+              {
+                "name": "Saturates",
+                "percent": "10",
+                "values": [
+                  "1.9g"
+                ]
+              },
+              {
+                "name": "Sugars",
+                "percent": "1",
+                "values": [
+                  "1.3g"
+                ]
+              },
+              {
+                "name": "Salt",
+                "percent": "30",
+                "values": [
+                  "1.8g"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "gtin": "08714100262344",
+      "ingredients": [
+        "Potato Starch",
+        "Palm Fat",
+        "Salt",
+        "Yeast Extract",
+        "Green Peas (5.8%)",
+        "Glucose Syrup",
+        "Carrots (4%)",
+        "Sugar",
+        "Chicken (1.9%)",
+        "Chicken Fat (1.8%)",
+        "Onions (1.6%)",
+        "Flavourings",
+        "<strong>Milk</strong> Proteins",
+        "Vegetable Juice Concentrates (<strong>Celery</strong>, Onion, Carrot, Leek)",
+        "Spices (Lovage Root, Turmeric, Pepper)",
+        "Herbs (Chives, <strong>Celery</strong> Leaves)",
+        "Maltodextrin",
+        "Lemon Juice Powder",
+        "Sunflower Oil",
+        "Antioxidant (Extracts of Rosemary)"
+      ],
+      "marketingText": "Enjoy Knorr Quick Soups in minutes, where and when you want. Our soups are easy to prepare and offer a convenient meal or snack. This delicious chicken & vegetable soup is made with carefully selected ingredients, making it a real temptation",
+      "pkgDimensions": [
+        {
+          "depth": 3.4,
+          "dimensionUom": "cm",
+          "height": 13.0,
+          "no": 1,
+          "volume": 419.9,
+          "volumeUom": "cc",
+          "weight": 65.0,
+          "weightUom": "g",
+          "width": 9.5
+        }
+      ],
+      "productAttributes": [
+        {
+          "category": [
+            {
+              "additives": [
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Artificial Colours"
+                  }
+                },
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Artificial Preservatives"
+                  }
+                },
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Flavour Enhancers"
+                  }
+                }
+              ],
+              "additives_other_text": {
+                "additives_other_text": {
+                  "name": "Additives Other Text",
+                  "value": "Free from artificial flavour enhancers"
+                }
+              },
+              "storage_info": {
+                "prep_and_usage": {
+                  "name": "Preparation and Usage",
+                  "value": "1 Empty the contents of sachet into a mug\n2 Pour in 190ml of boiling water, stir well, let settle and enjoy.\n3 Enjoy!"
+                },
+                "storage_type": {
+                  "name": "Storage Type",
+                  "value": "Ambient"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": [
+            {
+              "additives": [
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Artificial Colours"
+                  }
+                },
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Artificial Preservatives"
+                  }
+                },
+                {
+                  "additive_advice": {
+                    "name": "Additive Advice",
+                    "value": "Free From"
+                  },
+                  "additive_name": {
+                    "name": "Additive Name",
+                    "value": "Flavour Enhancers"
+                  }
+                }
+              ],
+              "additives_other_text": {
+                "additives_other_text": {
+                  "name": "Additives Other Text",
+                  "value": "Free from artificial flavour enhancers"
+                }
+              },
+              "storage_info": {
+                "prep_and_usage": {
+                  "name": "Preparation and Usage",
+                  "value": "1 Empty the contents of sachet into a mug\n2 Pour in 190ml of boiling water, stir well, let settle and enjoy.\n3 Enjoy!"
+                },
+                "storage_type": {
+                  "name": "Storage Type",
+                  "value": "Ambient"
+                }
+              }
+            }
+          ],
+          "source": "BB"
+        }
+      ],
+      "productCharacteristics": {
+        "containsLoperamide": false,
+        "healthScore": 62,
+        "isAnalgesic": false,
+        "isDrink": false,
+        "isFood": true,
+        "isHazardous": false,
+        "storageType": "Ambient"
+      },
+      "qtyContents": {
+        "avgMeasure": "Average Measure (e)",
+        "netContents": "42g \u212e",
+        "quantity": 192.0,
+        "quantityUom": "ML",
+        "totalQuantity": 192.0,
+        "unitQty": "100ML"
+      },
+      "storage": [
+        "Store in a cool, dry place.\nFor best before date, see bottom of the pack."
+      ],
+      "tpnb": "082988497",
+      "tpnc": "296290029"
+    }
+  ]
+},
+
+
+{
+  "products": [
+    {
+      "brand": "ARIEL",
+      "description": "Ariel All In 1 Washing Pods Original 36 Washes 907.2G",
+      "gtin": "08001841568928",
+      "pkgDimensions": [
+        {
+          "depth": 11.2,
+          "dimensionUom": "cm",
+          "height": 13.8,
+          "no": 1,
+          "volume": 3972.192,
+          "volumeUom": "cc",
+          "weight": 1042.0,
+          "weightUom": "g",
+          "width": 25.7
+        }
+      ],
+      "productCharacteristics": {
+        "containsLoperamide": false,
+        "isAnalgesic": false,
+        "isDrink": false,
+        "isFood": false,
+        "isHazardous": true,
+        "storageType": "Ambient"
+      },
+      "qtyContents": {
+        "quantity": 907.2,
+        "quantityUom": "G",
+        "totalQuantity": 907.2,
+        "unitQty": "KG"
+      },
+      "tpnb": "088019962",
+      "tpnc": "306460539"
+    }
+  ]
+},
+
+
+{
+    "products": [
+        {
+            "brand": "HEINEKEN",
+            "description": "Heineken Can",
+            "gtin": "08712000011413",
+            "pkgDimensions": [
+                {
+                    "depth": 6.5,
+                    "dimensionUom": "cm",
+                    "height": 17.0,
+                    "no": 1,
+                    "volume": 718.25,
+                    "volumeUom": "cc",
+                    "weight": 745.0,
+                    "weightUom": "g",
+                    "width": 6.5
+                }
+            ],
+            "productCharacteristics": {
+                "containsLoperamide": false,
+                "isAnalgesic": false,
+                "isDrink": true,
+                "isFood": false,
+                "isHazardous": false,
+                "storageType": "Ambient",
+                "totalAlcoholUnits": 2.5
+            },
+            "qtyContents": {
+                "avgMeasure": "Average Measure (e)",
+                "netContents": "500ml \u212e",
+                "quantity": 500.0,
+                "quantityUom": "ML",
+                "totalQuantity": 500.0,
+                "unitQty": "LITRE"
+            },
+            "tpnb": "053950171",
+            "tpnc": "250640585"
+        }
+    ]
+},
+
+
+{
+  "products": [
+      {
+          "brand": "BELVITA",
+          "description": "Belvita Breakfast Soft Bakes Blueberry 250G",
+          "gtin": "07622210840066",
+          "pkgDimensions": [
+              {
+                  "depth": 7.3,
+                  "dimensionUom": "cm",
+                  "height": 16.3,
+                  "no": 1,
+                  "volume": 1296.991,
+                  "volumeUom": "cc",
+                  "weight": 292.0,
+                  "weightUom": "g",
+                  "width": 10.9
+              }
+          ],
+          "productCharacteristics": {
+              "containsLoperamide": false,
+              "healthScore": 58,
+              "isAnalgesic": false,
+              "isDrink": false,
+              "isFood": true,
+              "isHazardous": false,
+              "storageType": "Ambient"
+          },
+          "qtyContents": {
+              "avgMeasure": "Average Measure (e)",
+              "netContents": "250g \u212e",
+              "quantity": 250.0,
+              "quantityUom": "G",
+              "totalQuantity": 250.0,
+              "unitQty": "100G"
+          },
+          "tpnb": "085315112",
+          "tpnc": "301013012"
+      }
+  ]
+},
+
+{
+    "products": [
+        {
+            "brand": "TESCO",
+            "calcNutrition": {
+                "calcNutrients": [
+                    {
+                        "name": "Energy (kJ)",
+                        "valuePer100": "1053",
+                        "valuePerServing": "13"
+                    },
+                    {
+                        "name": "Energy (kcal)",
+                        "valuePer100": "255",
+                        "valuePerServing": "3"
+                    },
+                    {
+                        "name": "Fat (g)",
+                        "qualPerServing": "<",
+                        "valuePer100": "3.2",
+                        "valuePerServing": "0.1"
+                    },
+                    {
+                        "name": "Saturates (g)",
+                        "qualPerServing": "<",
+                        "valuePer100": "0.6",
+                        "valuePerServing": "0.1"
+                    },
+                    {
+                        "name": "Carbohydrate (g)",
+                        "valuePer100": "25.5",
+                        "valuePerServing": "0.3"
+                    },
+                    {
+                        "name": "Sugars (g)",
+                        "qualPerServing": "<",
+                        "valuePer100": "2.2",
+                        "valuePerServing": "0.1"
+                    },
+                    {
+                        "name": "Fibre (g)",
+                        "valuePer100": "54.3",
+                        "valuePerServing": "0.7"
+                    },
+                    {
+                        "name": "Protein (g)",
+                        "qualPerServing": "<",
+                        "valuePer100": "3.9",
+                        "valuePerServing": "0.1"
+                    },
+                    {
+                        "name": "Salt (g)",
+                        "qualPerServing": "<",
+                        "valuePer100": "0.1",
+                        "valuePerServing": "0.01"
+                    }
+                ],
+                "per100Header": "Per 100g",
+                "perServingHeader": "\u00bd of a teaspoon (1.2g)"
+            },
+            "description": "Tesco Ground Cinnamon 40G Jar",
+            "gda": {
+                "gdaRefs": [
+                    {
+                        "footers": [
+                            "of the reference intake*",
+                            "Typical values per 100g: Energy 1053kJ / 255kcal"
+                        ],
+                        "gdaDescription": "Guideline Amounts Per Serv",
+                        "headers": [
+                            "\u00bd of a teaspoon"
+                        ],
+                        "values": [
+                            {
+                                "name": "Energy",
+                                "percent": "<1",
+                                "values": [
+                                    "13kJ",
+                                    "3kcal"
+                                ]
+                            },
+                            {
+                                "name": "Fat",
+                                "percent": "<1",
+                                "rating": "medium",
+                                "values": [
+                                    "<0.1"
+                                ]
+                            },
+                            {
+                                "name": "Saturates",
+                                "percent": "<1",
+                                "rating": "low",
+                                "values": [
+                                    "<0.1"
+                                ]
+                            },
+                            {
+                                "name": "Sugars",
+                                "percent": "<1",
+                                "rating": "low",
+                                "values": [
+                                    "<0.1"
+                                ]
+                            },
+                            {
+                                "name": "Salt",
+                                "percent": "0",
+                                "rating": "low",
+                                "values": [
+                                    "<0.01"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gtin": "00000003011300",
+            "marketingText": "WOODY & FRAGRANT\nWOODY & FRAGRANT",
+            "pkgDimensions": [
+                {
+                    "depth": 4.3,
+                    "dimensionUom": "cm",
+                    "height": 9.9,
+                    "no": 1,
+                    "volume": 183.051,
+                    "volumeUom": "cc",
+                    "weight": 140.0,
+                    "weightUom": "g",
+                    "width": 4.3
+                }
+            ],
+            "productAttributes": [
+                {
+                    "category": [
+                        {
+                            "lifestyle": [
+                                {
+                                    "lifestyle": {
+                                        "name": "Lifestyle",
+                                        "value": "Suitable for Vegans"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "source": "TQC"
+                },
+                {
+                    "category": [
+                        {
+                            "lifestyle": [
+                                {
+                                    "lifestyle": {
+                                        "name": "Lifestyle",
+                                        "value": "Suitable for Vegans"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "productCharacteristics": {
+                "containsLoperamide": false,
+                "isAnalgesic": false,
+                "isDrink": false,
+                "isFood": true,
+                "isHazardous": false,
+                "storageType": "Ambient"
+            },
+            "qtyContents": {
+                "netContents": "40g e",
+                "quantity": 40.0,
+                "quantityUom": "G",
+                "totalQuantity": 40.0,
+                "unitQty": "10G"
+            },
+            "storage": [
+                "Store in a cool dry place. \n"
+            ],
+            "tpnb": "050040607",
+            "tpnc": "254920403"
+        }
+    ]
+}]

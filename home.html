@@ -18,12 +18,15 @@
     </style>
   </head>
   <body onload="draw_body()">
-  <form name="file" type="file">
+  <form name="file" type="file" >
     <div id="vid-controls">
       <video id="vid-show" autoplay></video>
-      <input id="vid-take" name="vid-take" type="button" value="Take Photo"/>
+      <input id="vid-take" name="vid-take" type="button" value="Capture Barcode"/>
       <div id="vid-canvas"></div>
     </div>
+  </form>
+  <form method="POST" action="{{ url_for('results_page') }}" enctype="multipart/form-data">
+    <button type="submit" onclick="this.form.submit()">GO</button>
   </form>
   </body>
 </html>
