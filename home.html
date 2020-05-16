@@ -5,7 +5,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Barcode Capture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <script src="static/js/app.js"></script>
+    <script src="static/js/app.js">
+
+    </script>
     <style>
 
       #vid-canvas {
@@ -24,7 +26,7 @@
       .header{
         padding: 50px;
         text-align: center;
-        background: #1abc9c;
+        background: mediumseagreen;
         color: white;
         font-size: 50px;
         font-family: "Lucida Console", Courier, monospace;
@@ -40,6 +42,8 @@
         top: 78%;
         left: 42%;
         font-family: "Lucida Console", Courier, monospace;
+        cursor: pointer;
+
       }
 
       .button{
@@ -52,6 +56,7 @@
         top: 85%;
         left: 46%;
         font-family: "Lucida Console", Courier, monospace;
+        cursor: pointer;
       }
 
       #vid-show{
@@ -89,8 +94,9 @@
       height: 20em;
       margin: 0 auto;
       position: absolute;
-      top: 45%;
+      top: 500px;
       left: 300px;
+      cursor: pointer;
     }
 
     .dino__head {
@@ -353,7 +359,7 @@
 
 <div class="floor"></div>
 
-    <div class="dino">
+      <div class="dino" id="dino" onclick="move()">
 
     <div class="dino__head">
       <div class="dino__head__back"></div>
@@ -369,11 +375,8 @@
     </div>
 
     <div class="dino__back-leg"></div>
-
     <div class="dino__tail"></div>
-
     <div class="dino__bottom"></div>
-
     <div class="dino__front-leg"></div>
    </div>
 
@@ -385,10 +388,19 @@
       <div id="vid-canvas"></div>
     </div>
   </form>
-        <form method="POST" action="{{ url_for('results_page') }}" enctype="multipart/form-data"></form>
-    <button class="button" type="submit" onclick="this.form.submit()">GO</button>
+        <form method="POST" action="{{ url_for('results_page') }}" enctype="multipart/form-data">
+    <button class="button" type="submit" onclick="this.form.submit()">GO</button></form>
   </form>
   </div>
 
+      <script>
+          function move() {
+        x = Math.floor(Math.random()*2000);
+        y = Math.floor(Math.random()*800);
+        dino_moving = document.getElementById("dino");
+        dino.style.left = x+"px";
+        dino.style.top = y+"px";
+    }
+      </script>
   </body>
 </html>
