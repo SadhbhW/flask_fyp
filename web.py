@@ -33,13 +33,16 @@ def text():
             return json.dumps(parsed_barcodes), 200
         print("hi")
 
-
     return "OK"
 
 
 @app.route('/results_page', methods=['GET', 'POST'])
 def results_page():
-    return render_template('index.html')
+    file = open("user_info.json", "r")
+    info_for_user = file.read()
+    file.close()
+    return render_template('index.html', info=info_for_user)
+
 
 
 if __name__ == '__main__':

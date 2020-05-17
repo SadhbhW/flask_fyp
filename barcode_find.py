@@ -49,12 +49,9 @@ def retrieve_barcode(data):
             data = json.loads(converted_to_json)
             json_data = json.dumps(data, indent=4, sort_keys=True)
 
-            # write json data to json file
-            json_to_file = open('received_item_data.json', 'w')
-            json.dump(json_data, json_to_file)
-            # print(json_data)
+            print(json_data)
 
         except Exception as e:
-            print("error")
+            print(e)
 
     return parsed_barcodes
