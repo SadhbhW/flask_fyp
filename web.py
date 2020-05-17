@@ -26,14 +26,9 @@ def text():
                 decoded = base64.b64decode(stripped)
                 temp.write(decoded)
                 temp_path = temp.name
-            parsed_barcodes = barcode_find.retrieve_barcode(temp_path)
+                barcode_find.retrieve_barcode(temp_path)
 
-            if not DEBUG:
-                os.remove(temp_path)
-            return json.dumps(parsed_barcodes), 200
-        print("hi")
-
-    return "OK"
+        return("HI")
 
 
 @app.route('/results_page', methods=['GET', 'POST'])
@@ -42,7 +37,6 @@ def results_page():
     info_for_user = file.read()
     file.close()
     return render_template('index.html', info=info_for_user)
-
 
 
 if __name__ == '__main__':

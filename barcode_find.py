@@ -1,16 +1,14 @@
 import pprint
-
 from pyzbar import pyzbar
 import cv2
 import http.client, urllib.request, urllib.parse, urllib.error
 import json
 
-def retrieve_barcode(data):
-    data = cv2.imread(data)
-
+def retrieve_barcode(passed_data):
+    data = cv2.imread(passed_data)
     barcodes = pyzbar.decode(data)
-    parsed_barcodes = []
-    # more than one detected barcode
+
+    # for more than one detected barcode
     for barcode in barcodes:
         # bounding box location of barcode, drawn around barcode
         (x, y, w, h) = barcode.rect
@@ -22,7 +20,6 @@ def retrieve_barcode(data):
 
         # show barcode type and data to user
         print("The barcode {} {} was found in the image".format(barcode_string, barcode_byte))
-        parsed_barcodes.append([barcode_string, barcode_byte])
 
 
         # api code
@@ -49,9 +46,10 @@ def retrieve_barcode(data):
             data = json.loads(converted_to_json)
             json_data = json.dumps(data, indent=4, sort_keys=True)
 
+            # writing to recieved_item_data.json to then
+            # compare gtin with gtins in user_info.json
+
             print(json_data)
 
         except Exception as e:
             print(e)
-
-    return parsed_barcodes
